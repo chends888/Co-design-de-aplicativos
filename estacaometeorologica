@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Experimentação e testes em laboratório</title>
+		<center><h2>Experimentação e testes em laboratório</h2></center>
+		<a href='index.html'>Voltar para início</a>
+
+	</head>
+	<body>
+		<h3>Estação meteorológica</h3>
+		<br>Estação meteorológica
+
+		<br>A estação meteorológica desenvolvida para a disciplina Instrumentação e Medição consistia num circuito elétrico montado numa placa de circuito impresso de cobre, contendo sensores de umidade, temperatura, pressão e algum outro sensor escolhido pelo grupo. Todo este circuito era ligado a um micro-controlador (neste caso o Arduino), que recebia as leituras dos sensores e, através de um código criado pelo grupo contendo a calibração deles, transformava-os em um sinal digital exposto numa tela LCD. Para as desenvolver os códigos de calibração dos sensores, os alunos utilizaram os laboratórios e fizeram diversas medições, comparando-as posteriormente com os valores reais medidos por sensores já calibrados.
+
+
+
+
+
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<h3>Sobre nós:</h3></p>
+		<a href="sobremimLucasChen.html"> -Felipe Viacava de Freitas</a></p>
+		<a href="sobremimLucasChen.html"> -Felipe Silva</a></p>
+		<a href="sobremimLucasChen.html"> -João Rezende</a></p>
+		<a href="sobremimLucasChen.html"> -Lucas Chen Alba</a></p>
+	</body>
+</html>
+</html>
