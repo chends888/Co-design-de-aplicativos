@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Codesign</title>
+    <title>Hackeando tudo</title>
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/icon" href="assets/images/favicon.ico"/>
     <!-- Font Awesome -->
@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="assets/css/jquery.fancybox.css" type="text/css" media="screen" /> 
     <!-- Animate css -->
     <link rel="stylesheet" type="text/css" href="assets/css/animate.css"/> 
-    <!-- Progress bar  -->
+    <!-- Bootstrap progressbar  --> 
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-progressbar-3.3.4.css"/> 
      <!-- Theme color -->
     <link id="switcher" href="assets/css/theme-color/default-theme.css" rel="stylesheet">
@@ -31,8 +31,7 @@
     <!-- Open Sans for body font -->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <!-- Lato for Title -->
-    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>    
-    
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'> 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -41,20 +40,21 @@
     <![endif]-->
   </head>
   <body>
-  
+
   <!-- BEGAIN PRELOADER -->
-  <div id="preloader">
-    <div id="status">&nbsp;</div>
-  </div>
-  <!-- END PRELOADER -->
+    <div id="preloader">
+      <div id="status">&nbsp;</div>
+    </div>
+   <!-- END PRELOADER -->
 
-  <!-- SCROLL TOP BUTTON -->
-  <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
-  <!-- END SCROLL TOP BUTTON -->
+   <!-- SCROLL TOP BUTTON -->
+    <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+   <!-- END SCROLL TOP BUTTON -->
 
-  <!-- Start header -->
+    <!-- Start header -->
+
   <!-- End header -->
-  
+
   <!-- Start login modal window -->
   <div aria-hidden="false" role="dialog" tabindex="-1" id="login-form" class="modal leread-modal fade in">
     <div class="modal-dialog">
@@ -118,159 +118,92 @@
   <!-- End login modal window -->
 
   <!-- BEGIN MENU -->
-  <!-- END MENU --> 
+  <section id="menu-area">      
+    <nav class="navbar navbar-default" role="navigation">  
+      <div class="container">
+        <div class="navbar-header">
+          <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- LOGO -->              
+          <!-- TEXT BASED LOGO -->
+          <a class="navbar-brand" href="index.html">Hackeando tudo</a>              
+          <!-- IMG BASED LOGO  -->
+          <!-- <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt="logo"></a> -->                    
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul id="top-menu" class="nav navbar-nav navbar-right main-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="explore.html">Explore seu potencial</a></li>
+            <li><a href="coach.html">Coach</a></li>
+            <li><a href="http://mundoraiam.com/" target="_blank">Blog</a> </li>          
+          </ul>                     
+        </div><!--/.nav-collapse -->
+      </div>     
+    </nav>
+  </section>
 
-  <!-- Start slider -->
-  <!-- End slider -->
-
-  <!-- Start Feature -->
-  <section id="feature">
+  <section id="service">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <div class="title-area">
-            <h2 class="title">Grandes Areas dos nossos projetos</h2>
+            <h2 class="title"> <a href="contratar.html" target="_blank">Contrate uma palestra para sua empresa, escola ou universidade!!!</a></h2>
             <span class="line"></span>
+            <p>No ano de 2015 tive o prazer de palestrar em alguns dos lugares mais incríveis desse país. Falei com alunos de instituições referência como IME, ITA e em 2016 tenho eventos agendados no Brasil e fora, de universidades a bancos de investimento.</p>
           </div>
         </div>
         <div class="col-md-12">
-          <div class="feature-content">
+          <div class="service-content">
             <div class="row">
-              <div class="col-md-4 col-sm-6">
-                <div class="single-feature wow zoomIn">
-                  <i class="fa fa-rocket feature-icon"></i>
-                  <h4 class="feat-title">Construção</h4>
-                  <p>Descrição area 1</p>
-                </div>
-              </div>
-              <div class="col-md-4 col-sm-6">
-                <div class="single-feature wow zoomIn">
-                  <i class="fa fa-code feature-icon"></i>
-                  <h4 class="feat-title">Softwares</h4>
-                  <p>Descreva aqui</p>
-                </div>
-              </div>
-              <div class="col-md-4 col-sm-6">
-                <div class="single-feature wow zoomIn">
-                  <i class="fa fa-smile-o feature-icon"></i>
-                  <h4 class="feat-title">Pesquisas</h4>
-                  <p>Descreva aqui</p>
-                </div>
-              </div>
-              <div class="col-md-4 col-sm-6">
-                <div class="single-feature wow zoomIn">
-                  <i class="fa fa-camera feature-icon"></i>
-                  <h4 class="feat-title">Observação</h4>
-                  <p>Descreva</p>
-                </div>
-              </div>
-              <div class="col-md-4 col-sm-6">
-                <div class="single-feature wow zoomIn">
-                  <i class="fa fa-mortar-board feature-icon"></i>
-                  <h4 class="feat-title">Elaboração de textos e relatórios</h4>
-                  <p>Descreva</p>
-                </div>
-              </div>
-              <div class="col-md-4 col-sm-6">
-                <div class="single-feature wow zoomIn">
-                  <i class="fa fa-youtube-play feature-icon"></i>
-                  <h4 class="feat-title">Apresentações</h4>
-                  <p>Descreva</p>
-                </div>
-              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <!-- End Service -->
+  <!-- End error section  -->
 
-  <!-- Start Pricing table -->
-
-  <section id="our-team">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="title-area">
-            <h2 class="title">Quem somos nós</h2>
-            <span class="line"></span>
-            <p>Se você quer realmente continuar aprendendo pra chegar longe, independente do livro, dá uma olhada nas dicas abaixo!</p>
-          </div>
-        </div>
-        <div class="col-md-12">
-          <div class="our-team-content">
-            <div class="row">
-              <!-- Start single team member -->
-              <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="single-team-member">
-                 <div class="team-member-img">
-                   <img src="assets/images/udemy.png" alt="team member img">
-                 </div>
-                 <div class="team-member-name">
-                   <p><a href="https://www.udemy.com/" target="_blank">Felipe Pereira</a></p>
-                 </div>
-                 <p>Escreve qualquer merda sobre mim!</p>
-                 <div class="team-member-link">
-                 </div>
-                </div>
-              </div>
-              <!-- Start single team member -->
-              <!-- Start single team member -->
-              <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="single-team-member">
-                 <div class="team-member-img">
-                   <img src="assets/images/kindle.png" alt="team member img">
-                 </div>
-                 <div class="team-member-name">
-                   <p><a href="http://google.com" target="_blank">Felipe</a></span>
-                 </div>
-                 <p>Escreve qualquer merda sobre mim</p>
-                 <div class="team-member-link">
-                 </div>
-                </div>
-              </div>
-              <!-- Start single team member -->
-              <!-- Start single team member -->
-              <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="single-team-member">
-                 <div class="team-member-img">
-                   <img src="assets/images/ilimitado1.png" alt="team member img">
-                 </div>
-                 <div class="team-member-name">
-                   <p><a href="https://google.com" target="_blank">Felipe</a></span>
-                 </div>
-                 <p>Escreve qualquer merda sobre mim</p>
-                 <div class="team-member-link">
-                 </div>
-                </div>
-              </div>
-              <!-- Start single team member -->
-              <!-- Start single team member -->
-              <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="single-team-member">
-                 <div class="team-member-img">
-                   <img src="assets/images/ubook.png" alt="team member img">
-                 </div>
-                 <div class="team-member-name">
-                   <p>Ubook</p>
-
-                 </div>
-                 <p>Escreve qualquer merda sobre team-member-img</p>
-                 <div class="team-member-link">
-                 </div>
-                </div>
-              </div>
-              <!-- Start single team member -->
+  <!-- Start subscribe us -->
+  <section id="subscribe">
+    <div class="subscribe-overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="subscribe-area">
+              <h2 class="wow fadeInUp"><a href="contratar.html">Entre em contato para contratar uma palestra ou sessão de coaching!</a></h2>
+              <form action="" class="subscrib-form wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.5s">
+              </form>
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-6">
+          <div class="footer-left">
+            <p>Acesse:<a href="mundoraiam.com">Mundo Raiam</a></p>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-6">
+          <div class="footer-right">
+            <a href="https://www.facebook.com/r2raiam/?fref=ts"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/r2raiam"><i class="fa fa-30x fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End footer -->
 
-
- 
+  <!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>    
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <!-- Bootstrap -->
@@ -292,6 +225,6 @@
  
   <!-- Custom js -->
   <script type="text/javascript" src="assets/js/custom.js"></script>
-  
+    
   </body>
 </html>

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Codesign</title>
+    <title>Hackeando tudo</title>
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/icon" href="assets/images/favicon.ico"/>
     <!-- Font Awesome -->
@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="assets/css/jquery.fancybox.css" type="text/css" media="screen" /> 
     <!-- Animate css -->
     <link rel="stylesheet" type="text/css" href="assets/css/animate.css"/> 
-    <!-- Progress bar  -->
+    <!-- Bootstrap progressbar  --> 
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-progressbar-3.3.4.css"/> 
      <!-- Theme color -->
     <link id="switcher" href="assets/css/theme-color/default-theme.css" rel="stylesheet">
@@ -31,8 +31,7 @@
     <!-- Open Sans for body font -->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <!-- Lato for Title -->
-    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>    
-    
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'> 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -41,20 +40,21 @@
     <![endif]-->
   </head>
   <body>
-  
+
   <!-- BEGAIN PRELOADER -->
-  <div id="preloader">
-    <div id="status">&nbsp;</div>
-  </div>
-  <!-- END PRELOADER -->
+    <div id="preloader">
+      <div id="status">&nbsp;</div>
+    </div>
+   <!-- END PRELOADER -->
 
-  <!-- SCROLL TOP BUTTON -->
-  <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
-  <!-- END SCROLL TOP BUTTON -->
+   <!-- SCROLL TOP BUTTON -->
+    <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+   <!-- END SCROLL TOP BUTTON -->
 
-  <!-- Start header -->
+    <!-- Start header -->
+
   <!-- End header -->
-  
+
   <!-- Start login modal window -->
   <div aria-hidden="false" role="dialog" tabindex="-1" id="login-form" class="modal leread-modal fade in">
     <div class="modal-dialog">
@@ -118,19 +118,45 @@
   <!-- End login modal window -->
 
   <!-- BEGIN MENU -->
+  <section id="menu-area">      
+    <nav class="navbar navbar-default" role="navigation">  
+      <div class="container">
+        <div class="navbar-header">
+          <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- LOGO -->              
+          <!-- TEXT BASED LOGO -->
+          <a class="navbar-brand" href="index.html">Hackeando tudo</a>              
+          <!-- IMG BASED LOGO  -->
+          <!-- <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt="logo"></a> -->                    
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul id="top-menu" class="nav navbar-nav navbar-right main-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="coach.html">Coach</a></li>
+            <li><a href="http://mundoraiam.com/" target="_blank">Blog</a> </li>
+            <li><a href="palestras.html">Palestras</a></li>               
+          </ul>                     
+        </div><!--/.nav-collapse -->
+      </div>     
+    </nav>
+  </section>
   <!-- END MENU --> 
-
-  <!-- Start slider -->
-  <!-- End slider -->
-
-  <!-- Start Feature -->
+  
+  <!-- Start single page header -->
   <section id="feature">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <div class="title-area">
-            <h2 class="title">Grandes Areas dos nossos projetos</h2>
+            <h2 class="title">Explore seu potencial</h2>
             <span class="line"></span>
+            <p>Aprenda como otimizar seu tempo para focar no que realmente importa na sua vida</p>
           </div>
         </div>
         <div class="col-md-12">
@@ -139,43 +165,43 @@
               <div class="col-md-4 col-sm-6">
                 <div class="single-feature wow zoomIn">
                   <i class="fa fa-rocket feature-icon"></i>
-                  <h4 class="feat-title">Construção</h4>
-                  <p>Descrição area 1</p>
+                  <h4 class="feat-title">Faça a sua vida e carreira decolarem</h4>
+                  <p>Vou mostrar pra você como pude superar alguns vícios que tiravam o foco e me faziam desviar dos objetivos realmente importantes.</p>
                 </div>
               </div>
               <div class="col-md-4 col-sm-6">
                 <div class="single-feature wow zoomIn">
-                  <i class="fa fa-code feature-icon"></i>
-                  <h4 class="feat-title">Softwares</h4>
-                  <p>Descreva aqui</p>
+                  <i class="fa fa-clock-o feature-icon"></i>
+                  <h4 class="feat-title">Otimize seu tempo</h4>
+                  <p>Como passei a controlar melhor meu tempo, proudzir muito mais em menos tempo e passei a ter mais tranquilidade pra trabalhar e ter uma vida pessoal muito melhor.</p>
                 </div>
               </div>
               <div class="col-md-4 col-sm-6">
                 <div class="single-feature wow zoomIn">
                   <i class="fa fa-smile-o feature-icon"></i>
-                  <h4 class="feat-title">Pesquisas</h4>
-                  <p>Descreva aqui</p>
+                  <h4 class="feat-title">Se conheça melhor</h4>
+                  <p>Os hacks do livro nada mais são do que atalhos para que você olhe para dentro e começe a corrigir o que precisa ser melhorado. Conhecendo a sí mesmo você vai poder trabalhar nas suas limitações e explorar seus pontos fortes.</p>
                 </div>
               </div>
               <div class="col-md-4 col-sm-6">
                 <div class="single-feature wow zoomIn">
-                  <i class="fa fa-camera feature-icon"></i>
-                  <h4 class="feat-title">Observação</h4>
-                  <p>Descreva</p>
+                  <i class="fa fa-users feature-icon"></i>
+                  <h4 class="feat-title">Melhore suas relações pessoais e profissionais</h4>
+                  <p>Aqui eu te mostro como um moleque preto do Rio Janeiro virou peixe de megainvestidores como Luis Stuhlberger e de super celebridades como o Neymar.</p>
                 </div>
               </div>
               <div class="col-md-4 col-sm-6">
                 <div class="single-feature wow zoomIn">
-                  <i class="fa fa-mortar-board feature-icon"></i>
-                  <h4 class="feat-title">Elaboração de textos e relatórios</h4>
-                  <p>Descreva</p>
+                  <i class="fa fa-trophy feature-icon"></i>
+                  <h4 class="feat-title">Se destaque na multidão</h4>
+                  <p>Entenda como explorar suas habilidades e garantir a atenção e o reconhecimento das pessoas pelo que você faz. Truques que descobri do subúrbio do Rio de Janeiro a arranha-céus de Nova York</p>
                 </div>
               </div>
               <div class="col-md-4 col-sm-6">
                 <div class="single-feature wow zoomIn">
-                  <i class="fa fa-youtube-play feature-icon"></i>
-                  <h4 class="feat-title">Apresentações</h4>
-                  <p>Descreva</p>
+                  <i class="fa fa-money feature-icon"></i>
+                  <h4 class="feat-title">Se resolva com sua grana</h4>
+                  <p>Eu vou te mostrar desde o começo como eu consegui ter controle sobre as minhas finanças e comecei a investir em mim mesmo e vivendo muito melhor. Não dá pra administrar império se tú não manda na sua carteira e cai no cheque especial.</p>
                 </div>
               </div>
             </div>
@@ -184,114 +210,65 @@
       </div>
     </div>
   </section>
-  <!-- End Service -->
+  <!-- End Feature -->
 
-  <!-- Start Pricing table -->
-
-  <section id="our-team">
+  <!-- Start subscribe us -->
+  <section id="subscribe">
+    <div class="subscribe-overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="subscribe-area">
+              <h2 class="wow fadeInUp"><a href="acesso.html">Leia agora as primeiras dez páginas gratuitamente!!!</a></h2>
+              <form action="" class="subscrib-form wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.5s">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer id="footer">
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
-          <div class="title-area">
-            <h2 class="title">Quem somos nós</h2>
-            <span class="line"></span>
-            <p>Se você quer realmente continuar aprendendo pra chegar longe, independente do livro, dá uma olhada nas dicas abaixo!</p>
+        <div class="col-md-6 col-sm-6">
+          <div class="footer-left">
+            <p>Acesse:<a href="mundoraiam.com">Mundo Raiam</a></p>
           </div>
         </div>
-        <div class="col-md-12">
-          <div class="our-team-content">
-            <div class="row">
-              <!-- Start single team member -->
-              <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="single-team-member">
-                 <div class="team-member-img">
-                   <img src="assets/images/udemy.png" alt="team member img">
-                 </div>
-                 <div class="team-member-name">
-                   <p><a href="https://www.udemy.com/" target="_blank">Felipe Pereira</a></p>
-                 </div>
-                 <p>Escreve qualquer merda sobre mim!</p>
-                 <div class="team-member-link">
-                 </div>
-                </div>
-              </div>
-              <!-- Start single team member -->
-              <!-- Start single team member -->
-              <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="single-team-member">
-                 <div class="team-member-img">
-                   <img src="assets/images/kindle.png" alt="team member img">
-                 </div>
-                 <div class="team-member-name">
-                   <p><a href="http://google.com" target="_blank">Felipe</a></span>
-                 </div>
-                 <p>Escreve qualquer merda sobre mim</p>
-                 <div class="team-member-link">
-                 </div>
-                </div>
-              </div>
-              <!-- Start single team member -->
-              <!-- Start single team member -->
-              <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="single-team-member">
-                 <div class="team-member-img">
-                   <img src="assets/images/ilimitado1.png" alt="team member img">
-                 </div>
-                 <div class="team-member-name">
-                   <p><a href="https://google.com" target="_blank">Felipe</a></span>
-                 </div>
-                 <p>Escreve qualquer merda sobre mim</p>
-                 <div class="team-member-link">
-                 </div>
-                </div>
-              </div>
-              <!-- Start single team member -->
-              <!-- Start single team member -->
-              <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="single-team-member">
-                 <div class="team-member-img">
-                   <img src="assets/images/ubook.png" alt="team member img">
-                 </div>
-                 <div class="team-member-name">
-                   <p>Ubook</p>
-
-                 </div>
-                 <p>Escreve qualquer merda sobre team-member-img</p>
-                 <div class="team-member-link">
-                 </div>
-                </div>
-              </div>
-              <!-- Start single team member -->
-            </div>
+        <div class="col-md-6 col-sm-6">
+          <div class="footer-right">
+            <a href="https://www.facebook.com/r2raiam/?fref=ts"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/r2raiam"><i class="fa fa-30x fa-twitter"></i></a>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </footer>
+  <!-- End footer -->
 
-
- 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>    
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <!-- Bootstrap -->
-  <script src="assets/js/bootstrap.js"></script>
-  <!-- Slick Slider -->
-  <script type="text/javascript" src="assets/js/slick.js"></script>    
-  <!-- mixit slider -->
-  <script type="text/javascript" src="assets/js/jquery.mixitup.js"></script>
-  <!-- Add fancyBox -->        
-  <script type="text/javascript" src="assets/js/jquery.fancybox.pack.js"></script>
- <!-- counter -->
-  <script src="assets/js/waypoints.js"></script>
-  <script src="assets/js/jquery.counterup.js"></script>
-  <!-- Wow animation -->
-  <script type="text/javascript" src="assets/js/wow.js"></script> 
-  <!-- progress bar   -->
-  <script type="text/javascript" src="assets/js/bootstrap-progressbar.js"></script>  
-  
- 
-  <!-- Custom js -->
-  <script type="text/javascript" src="assets/js/custom.js"></script>
-  
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>    
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.js"></script>
+    <!-- Slick Slider -->
+    <script type="text/javascript" src="assets/js/slick.js"></script>    
+    <!-- mixit slider -->
+    <script type="text/javascript" src="assets/js/jquery.mixitup.js"></script>
+    <!-- Add fancyBox -->        
+    <script type="text/javascript" src="assets/js/jquery.fancybox.pack.js"></script>
+   <!-- counter -->
+    <script src="assets/js/waypoints.js"></script>
+    <script src="assets/js/jquery.counterup.js"></script>
+    <!-- Wow animation -->
+    <script type="text/javascript" src="assets/js/wow.js"></script> 
+    <!-- progress bar   -->
+    <script type="text/javascript" src="assets/js/bootstrap-progressbar.js"></script>  
+    
+   
+    <!-- Custom js -->
+    <script type="text/javascript" src="assets/js/custom.js"></script>
+    
   </body>
 </html>
